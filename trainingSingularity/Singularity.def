@@ -1,0 +1,14 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+
+%post
+    pip install ultralytics
+    pip install roboflow
+    pip install matplotlib
+    pip install pillow
+
+%environment
+    export PYTHONUNBUFFERED=1
+
+%runscript
+    python train.py

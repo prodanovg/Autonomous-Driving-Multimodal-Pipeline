@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO training outputs
+runs/
+
+# Models
+*.pt
+
+# Dataset
+datasets/
+Self-Driving-Car-1/
+
+# Images
+*.jpg
+*.png
+*.jpeg
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Mac/Linux system files
+.DS_Store
+
+# Singularity
+*.sif
+.idea/
+
+

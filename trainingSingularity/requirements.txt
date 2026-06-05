@@ -1,0 +1,6 @@
+ultralytics
+roboflow
+matplotlib
+pillow
+torch
+torchvision
