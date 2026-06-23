@@ -1,0 +1,2 @@
+GROQ_API_KEY="your api key for groq"
+ROBOFLOW_API_KEY_ENV= "your roboflow api key"
